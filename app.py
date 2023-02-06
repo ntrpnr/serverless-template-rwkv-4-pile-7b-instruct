@@ -11,7 +11,7 @@ def init():
     device = 0 if torch.cuda.is_available() else -1
 
     tokenizer = RWKVTokenizer.default()
-    model = RWKVRNN4NeoForCausalLM.from_pretrained("RWKV-4-7B") # options RWKV-4-1B5 RWKV-4-3B RWKV-4-7B  RWKV-4-14B
+    model = RWKVRNN4NeoForCausalLM.from_pretrained("RWKV-4-430M") # options RWKV-4-1B5 RWKV-4-3B RWKV-4-7B  RWKV-4-14B
     
 
 # Inference is ran for every server call
