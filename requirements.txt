@@ -3,4 +3,5 @@ accelerate
 transformers
 inquirer
 sty
+scipy
 rwkvstic
