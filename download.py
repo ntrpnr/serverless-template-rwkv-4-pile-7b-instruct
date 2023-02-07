@@ -3,13 +3,11 @@
 
 # In this example: A Huggingface BERT model
 
-from prwkv.rwkvtokenizer import RWKVTokenizer
-from prwkv.rwkvrnnmodel import RWKVRNN4NeoForCausalLM
+from rwkvstic.load import RWKV
 
 def download_model():
     # do a dry run of loading the huggingface model, which will download weights
-    tokenizer = RWKVTokenizer.default()
-    model = RWKVRNN4NeoForCausalLM.from_pretrained("RWKV-4-7B") # options RWKV-4-1B5 RWKV-4-3B RWKV-4-7B  RWKV-4-14B
+    model = RWKV("https://huggingface.co/Hazzzardous/RWKV-8Bit/resolve/main/RWKV-4-Pile-7B-Instruct.pqth") 
 
 if __name__ == "__main__":
     download_model()
