@@ -5,3 +5,5 @@ inquirer
 sty
 scipy
 rwkvstic
+requests
+shutil

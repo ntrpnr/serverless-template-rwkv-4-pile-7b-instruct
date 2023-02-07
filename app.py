@@ -4,9 +4,8 @@ import torch
 # Init is ran on server startup
 # Load your model to GPU as a global variable here using the variable name "model"
 def init():
-    global model
-    
-    model = RWKV("https://huggingface.co/Hazzzardous/RWKV-8Bit/resolve/main/RWKV-4-Pile-7B-Instruct.pqth")    
+    global model    
+    model = RWKV("RWKV-4-Pile-7B-Instruct.pqth")    
 
 # Inference is ran for every server call
 # Reference your preloaded global model variable here.
