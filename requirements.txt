@@ -6,4 +6,3 @@ sty
 scipy
 rwkvstic
 requests
-shutil
