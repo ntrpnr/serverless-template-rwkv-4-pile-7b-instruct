@@ -1,5 +1,6 @@
 sanic==22.6.2
 accelerate
 transformers
+inquirer
 sty
 rwkvstic
