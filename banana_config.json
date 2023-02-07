@@ -1,0 +1,12 @@
+{
+    "name": "RWKV 4 Pile 7B Instruct",
+    "category": "Natural Language",
+    "example_input": {
+        "prompt": "What technology was used to build the pyramids?",
+        "max_tokens": 200
+    },
+    "example_output": {
+        "output": "Obtaining large blocks of the finished masonry is one of the reasons why the pyramids were such a technological feat. Rubble mortar was used for the small stones as well as dolmen masonry, a unique mortar technology. The basic mortar is called 'adobe', meaning'mixed' with small quantities of fine-grained sand, gravel or clay. It is made by grinding fine-grained clay with fine-grained sand, water and lime. The mortar mixes smoothly enough that it can be mixed and used very similarly to traditional mortars. The pyramid builders recycled waste material for mortar. The chief engineer of Giza pyramid has said he uses mortar left over from the pyramids that he was required to break down to make the Step Pyramid, as well as limestone to add to the mortar of the Great Pyramid. The Egyptian secretive society called the Freemasons admit that they were involved in pyramid building. In fact, it was all m"
+    },
+    "version": "1"
+  }
